@@ -1,4 +1,5 @@
 steps:
-  - command: "echo Hello, Buildkite!"
+  - label: "10-minute job"
+    command: "sleep 600"
     agents:
       queue: "default"
