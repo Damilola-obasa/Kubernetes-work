@@ -1,2 +1,4 @@
 steps:
-  - command: "echo Hello, Buildkites!"
+  - command: "echo Hello, Buildkite!"
+    agents:
+      queue: "default"
