@@ -1,3 +1,2 @@
 steps:
-  - label: ":k8s: Run in Pod"
-    command: "echo Hello from a Kubernetes pod!"
+  - command: "echo Hello, Buildkite!"
