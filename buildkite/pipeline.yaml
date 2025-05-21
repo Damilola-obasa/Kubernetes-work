@@ -1,5 +1,5 @@
 steps:
   - label: "10-minute job"
-    command: "sleep 600"
+    command: "Echo name"
     agents:
       queue: "default"
