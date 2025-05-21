@@ -1,5 +1,15 @@
 steps:
-  - label: "10-minute job"
-    command: "Echo name"
+  - label: "Job 1"
+    command: "echo Hello from Job 1"
+    agents:
+      queue: "default"
+
+  - label: "Job 2"
+    command: "echo Hello from Job 2"
+    agents:
+      queue: "default"
+
+  - label: "Job 3"
+    command: "sleep 30 && echo Job 3 done"
     agents:
       queue: "default"
