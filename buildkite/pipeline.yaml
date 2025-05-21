@@ -1,11 +1,3 @@
 steps:
   - label: ":k8s: Run in Pod"
     command: "echo Hello from a Kubernetes pod!"
-    plugins:
-      - kubernetes#v3.10.0:
-          podSpec:
-            containers:
-              - name: main
-                image: alpine
-                command: ["/bin/sh", "-c"]
-                args: ["echo Hello from a Kubernetes Pod"]
