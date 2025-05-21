@@ -1,0 +1,5 @@
+steps:
+  - label: ":shell: Simple Step"
+    command: "echo Hello from Buildkite on Kubernetes!"
+    agents:
+      queue: "kubernetes"
